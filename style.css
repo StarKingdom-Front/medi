@@ -82,7 +82,7 @@ p {
 /*------------------------------*/
 
 ._container {
-    max-width: 1295px;
+    max-width: 1296px;
     margin: 0 auto;
     padding: 0px 15px;
     box-sizing: content-box;
@@ -144,6 +144,7 @@ p {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .btn__glass img {
@@ -215,4 +216,48 @@ p {
     display: block;
 }
 
-/*-----------------------------*/
+/*---------------header-bottom---------------*/
+
+.header__bottom {
+    background-color:#4FBFA5;
+}
+
+.header__body {
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.lists {
+    width: 100%;
+    margin-left: 61px;
+}
+
+.body__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list__item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.btn__record {
+    width: 238px;
+    height: 40px;
+    background-color: #fff;
+    color: #000000;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.19px;
+    margin-right: 9px;
+    margin-left: 95px;
+    cursor: pointer;
+}
